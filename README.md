@@ -17,6 +17,10 @@ Here, you'll find information about me:
 - **Markdown files:** my most valuable job/academic experiences
 - _Maybe, other info related stuff..._
 
+Check out the [documents directory]!
+
+[documents directory]: https://github.com/nasccped/nascc.documents/tree/main/documents/README.md
+
 > [!NOTE]
 >
 > If you prefer, you can message me through my
