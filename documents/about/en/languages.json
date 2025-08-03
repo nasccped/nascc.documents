@@ -1,0 +1,12 @@
+{
+  "languages": [
+    {
+      "name": "English",
+      "description": "Mid knowledge with speaking/writting. Advanced knowledge with reading."
+    },
+    {
+      "name": "Portuguese (Brazil)",
+      "description": "Born and raised in Brazil. I use Portuguese as my native language."
+    }
+  ]
+}

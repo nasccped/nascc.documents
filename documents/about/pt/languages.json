@@ -1,0 +1,12 @@
+{
+  "languages": [
+    {
+      "name": "Inglês",
+      "description": "Conhecimento intermediário na escrita e fala. Conhecimento avançado na leitura."
+    },
+    {
+      "name": "Português (Brasil)",
+      "description": "Nascido e criado no Brasil. Uso Português como língua nativa."
+    }
+  ]
+}
