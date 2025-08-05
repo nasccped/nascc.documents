@@ -1,8 +1,9 @@
 {
-  "languages": [
+  "title": "Línguas",
+  "content": [
     {
       "name": "Inglês",
-      "description": "Conhecimento intermediário na escrita e fala. Conhecimento avançado na leitura."
+      "description": "Escrita/fala intermediária. Leitura avançada."
     },
     {
       "name": "Português (Brasil)",

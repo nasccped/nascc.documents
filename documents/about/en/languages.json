@@ -1,8 +1,9 @@
 {
-  "languages": [
+  "title": "Languages",
+  "content": [
     {
       "name": "English",
-      "description": "Mid knowledge with speaking/writting. Advanced knowledge with reading."
+      "description": "Mid speaking/writting knowledge. Advanced reading knowledge."
     },
     {
       "name": "Portuguese (Brazil)",
