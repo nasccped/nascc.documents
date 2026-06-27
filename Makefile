@@ -1,34 +1,14 @@
-JSON_FMT=./tools/json-fmt.sh
-SH_FMT=./tools/sh-fmt.sh
-WATCH_PDF=./tools/pdf-watch.sh
-TEMP_DIR=temp
-
-CYAN=\e[96m
-RESET=\e[0m
+TYPST_FILE=./resumes/resume_builder.typ
+TYPST_DEF_VALUES=$(TYPST_FILE) --root .
 
 all:
-	@echo    "Usage: make [Options]"
-	@echo    ""
-	@echo    "Options:"
-	@echo -e "      $(CYAN)json$(RESET)  Format all json files"
-	@echo -e "      $(CYAN)sh$(RESET)    Format all sh files"
-	@echo -e "      $(CYAN)pdf$(RESET)   Generate pdf files using typst"
-	@echo -e "      $(CYAN)watch$(RESET) Generate pdf in watch mode (temp dir)"
+	@echo "make en-resume: builds the english version of resume ($(TYPST_FILE))"
+	@echo "make pt-resume: builds the portuguese version of resume ($(TYPST_FILE))"
 
-json:
-	$(JSON_FMT)
+en-resume:
+	typst compile $(TYPST_DEF_VALUES) --input lang="english"
 
-sh:
-	$(SH_FMT)
+pt-resume:
+	typst compile $(TYPST_DEF_VALUES) --input lang="portuguese"
 
-pdf:
-	@echo -e "@$(CYAN)todo$(RESET)"
-	@echo "This will be implemented soon..."
-
-watch: $(TEMP_DIR)
-	$(WATCH_PDF)
-
-$(TEMP_DIR):
-	@mkdir $@
-
-.PHONY: all json sh pdf watch
+.PHONY: en-resume all
