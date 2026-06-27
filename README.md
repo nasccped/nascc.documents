@@ -3,9 +3,9 @@
 nascc.documents
 ===============
 
-[![Experience](https://img.shields.io/badge/Experience-f95738?style=for-the-badge)](#)
-[![Certificates](https://img.shields.io/badge/Certificates-ee964b?style=for-the-badge)](#)
-[![Resumes](https://img.shields.io/badge/Resumes-0d3b66?style=for-the-badge)](#)
+[![experience](https://img.shields.io/badge/experience-grey)](#)
+[![certificates](https://img.shields.io/badge/certificates-grey)](#)
+[![resumes](https://img.shields.io/badge/resumes-grey)](#)
 
 </div>
 
