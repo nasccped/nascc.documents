@@ -17,3 +17,5 @@
 
 = #info.name
 ====== #info.prefered_role
+
+#info.about
