@@ -1,0 +1,111 @@
+profile:
+  name: Pedro Brito do Nascimento
+  role: Software Developer
+  phone: (+55) 11 99340-2937
+  location: São Paulo, SP - BR
+  timezone: America/Sao_Paulo | UTC-3
+  mail: pdbt.contact@gmail.com
+  github: https://github.com/nasccped
+  linkedin: https://linkedin.com/in/nasccped
+
+about: >
+  Computer Science undergrad, familiarized with software development since 2024. I was analyst,
+  developer and maintainer of personal projects and academic researches diving mostly in DSA, OSes
+  and Desktop programs configuring (through rc/c files).
+
+experiences:
+  -
+    role: Freelancer Developer
+    at:
+      place: GitHub
+      link: https://github.com/
+    from: Feb. 2024
+    to: current
+    description:
+      - Tools and researches development with C, Rust, Python, Java and many more.
+      - Opensource contributing, mostly IDE's plugins, general purpose tools (Linux) and
+        configuring repositories.
+      - Install and usage tools documenting.
+      - Codebase maintenance and CI/CD pipelines handling through GitHub Actions.
+
+  - 
+    role: System Analyst (academic)
+    at:
+      place: Cruzeiro do Sul
+      link: https://www.cruzeirodosul.edu.br/
+    from: Feb. 2026
+    to: Jun. 2026
+    description:
+      - Field understanding and documenting on core-domain situation (irregular trash disposal).
+      - Backend application (CRUD) development based on Rust tooling (Rust, Tokio async runtime,
+        ActixWeb framework and PostgreSQL).
+
+  -
+    role: Computer Science Instructor (internship)
+    at:
+      place: Cruzeiro do Sul
+      link: https://www.cruzeirodosul.edu.br/
+    from: Aug. 2025
+    to: Dec. 2025
+    description:
+      - Class scheduling and educational content provisor.
+      - Computer 'n tools understanding.
+
+  -
+    role: Fullstack Developer (academic)
+    at:
+      place: Cruzeiro do Sul
+      link: https://www.cruzeirodosul.edu.br/
+    from: Aug. 2023
+    to: Dec. 2023
+    description:
+      - Fullstack aplication development (for a fictitious traveling website) entirely in LAMP
+        stack (Linux, Apache, MySQL and PHP).
+
+education:
+  -
+    title: Computer Science
+    kind: bachelor
+    at:
+      place: Cruzeiro do Sul
+      link: https://www.cruzeirodosul.edu.br/
+    from: Jan. 2023
+    to: Dec. 2026
+
+  -
+    title: Docker From Scratch
+    kind: course
+    at:
+      place: Udemy
+      link: https://www.udemy.com/
+    from: Mar. 2025
+    to: Jul. 2025
+
+  -
+    title: Backend Development With Kotlin
+    kind: bootcamp
+    at:
+      place: DIO
+      link: https://www.dio.me/
+    from: Dec. 2023
+    to: Jan. 2024
+
+idioms:
+  - english (average)
+  - portuguese (native)
+
+outros:
+  -
+    title: acrt
+    link: https://github.com/nasccped/acrt
+    description: an assertion C library from scratch.
+
+  -
+    title: jsmoke
+    link: https://github.com/jsmoke
+    description: a java project manager written in Rust.
+
+  -
+    title: pdmers
+    link: https://github.com/pdmers
+    description: a PDF merger written in Rust.

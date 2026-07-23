@@ -1,0 +1,113 @@
+profile:
+  name: Pedro Brito do Nascimento
+  role: Software Developer
+  phone: (+55) 11 99340-2937
+  location: São Paulo, SP - BR
+  timezone: America/Sao_Paulo | UTC-3
+  mail: pdbt.contact@gmail.com
+  github: https://github.com/nasccped
+  linkedin: https://linkedin.com/in/nasccped
+
+about: >
+  Graduando em Ciência da Computação, familiarizado com desenvolvimento de software desde 2024. Fui
+  analista, desenvolvedor e mantenedor de muitos projetos pessoais e pesquisas acadêmicas abordando
+  principalmente estrutura de dados, sistemas operacionais e configuração de programas desktop
+  (rc/c files).
+
+experiences:
+  -
+    role: Desenvolvedor Freelancer
+    at:
+      place: GitHub
+      link: https://github.com/
+    from: Fev. 2024
+    to: atual
+    description:
+      - Desenvolvimento de ferramentas e projetos de pesquisa em C, Rust, Python, Java e outros.
+      - Contribuição com projetos opensource, em sua maioria plugins para IDEs, programas de uso
+        pessoal (Linux) e repositórios de configuração.
+      - Elaboração de documentações sobre instalação e uso de ferramentas desenvolvidas.
+      - Manutenção de codebase e manuseio de CI/CD pipelines por meio de GitHub Actions.
+
+  -
+    role: Analista de Sistema (acadêmico)
+    at:
+      place: Cruzeiro do Sul
+      link: https://www.cruzeirodosul.edu.br/
+    from: Fev. 2026
+    to: Jun. 2026
+    description:
+      - Estudo de campo e documentação sobre o problema a ser tratado (descarte irregular de lixo).
+      - Desenvolvimento de aplicação backend (CRUD) usando Rust, Tokio async runtime, ActixWeb
+        framework e PostgreSQL.
+
+  -
+    role: Professor de Informática (estágio)
+    at:
+      place: Cruzeiro do Sul
+      link: https://www.cruzeirodosul.edu.br/
+    from: Ago. 2025
+    to: Dez. 2025
+    description:
+      - Montagem de cronograma e material para de aulas de informática.
+      - Desenvolvimento de material de apoio para compreensão dos computadores, suas ferramentas e
+        seu funcionamento.
+
+  -
+    role: Desenvolvedor Fullstack (acadêmico)
+    at:
+      place: Cruzeiro do Sul
+      link: https://www.cruzeirodosul.edu.br/
+    from: Ago. 2023
+    to: Dez. 2023
+    description:
+      - Desenvolvimento de uma aplicação fullstack (de um site fictício de viagens) inteiramente
+        em LAMP (Linux, Apache, MySQL e PHP).
+
+education:
+  -
+    title: Ciência da Computação
+    kind: bacharel
+    at:
+      place: Cruzeiro do Sul
+      link: https://www.cruzeirodosul.edu.br/
+    from: Jan. 2023
+    to: Dez. 2026
+
+  -
+    title: Aprenda Docker do Zero ao Avançado
+    kind: curso
+    at:
+      place: Udemy
+      link: https://www.udemy.com/
+    from: Mar. 2025
+    to: Jul. 2025
+
+  -
+    title: Desenvolvimento Backend com Kotlin
+    kind: bootcamp
+    at:
+      place: DIO
+      link: https://www.dio.me/
+    from: Dez. 2023
+    to: Jan. 2024
+
+idioms:
+  - inglês (intermediário)
+  - português (nativo)
+
+outros:
+  -
+    title: acrt
+    link: https://github.com/nasccped/acrt
+    description: uma biblioteca C de asserção escrita do zero.
+
+  -
+    title: jsmoke
+    link: https://github.com/jsmoke
+    description: um project manager para Java escrito em Rust.
+
+  -
+    title: pdmers
+    link: https://github.com/pdmers
+    description: um PDF merger escrito em Rust.
