@@ -1,13 +1,14 @@
-TYPST_FILE=./typst/builder.typ
+TYPST_DIR=./typst
+TYPST_FILE=$(TYPST_DIR)/builder.typ
 
 all:
 	@echo "make en-resume: builds the english version of resume ($(TYPST_FILE))"
 	@echo "make pt-resume: builds the portuguese version of resume ($(TYPST_FILE))"
 
-en-resume:
-	typst compile $(TYPST_FILE) --root . --input lang="english"
+en-resume: $(TYPST_FILE)
+	typst compile $< $(TYPST_DIR)/output-en.pdf --input lang="en"
 
-pt-resume:
-	typst compile $(TYPST_FILE) --root . --input lang="portuguese"
+pt-resume: $(TYPST_FILE)
+	typst compile $< $(TYPST_DIR)/output-pt.pdf --input lang="pt"
 
 .PHONY: en-resume all pt-resume
